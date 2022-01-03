@@ -1,0 +1,14 @@
+@import "../../global.scss";
+
+
+.portfolioButton {
+    font-size: 15px;
+    margin-right: 50px;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 10px;
+    &.active {
+      background-color: $mainColor;
+      color: white;
+    }
+  }
